@@ -1,7 +1,8 @@
 #include <stdio.h>
-
+#include<math.h>
 // Define constants (if necessary)
-// Example: #define PI 3.14159265358979323846
+#define PI 3.14159
+
 
 // Function declarations
 void greet(void);                    // Student 1
@@ -75,7 +76,10 @@ int subtract(int a, int b) {
 
 // Student 4: Implement calculate_area() function
 double calculateArea(double radius) {
-    // Placeholder
+    float redius;
+    float area;
+                   // Placeholder
+
     return 0.0; // Replace with actual logic
 }
 
@@ -95,3 +99,7 @@ void displayMenu(void) {
     printf("4. Calculate the area of a circle\n");
     printf("5. Calculate the factorial of a number\n");
 }
+
+
+
+// hi 
